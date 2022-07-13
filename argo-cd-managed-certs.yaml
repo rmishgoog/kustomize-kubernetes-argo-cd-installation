@@ -1,0 +1,8 @@
+apiVersion: networking.gke.io/v1
+kind: ManagedCertificate
+metadata:
+  name: argo-managed-cert
+  namespace: argocd
+spec:
+  domains:
+    - frontend.endpoints.rmishra-gke-cicd-demo-build.cloud.goog

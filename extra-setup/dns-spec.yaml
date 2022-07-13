@@ -1,0 +1,10 @@
+swagger: "2.0"
+info:
+  description: "Cloud Endpoints DNS"
+  title: "Cloud Endpoints DNS"
+  version: "1.0.0"
+paths: {}
+host: "frontend.endpoints.rmishra-gke-cicd-demo-build.cloud.goog"
+x-google-endpoints:
+- name: "frontend.endpoints.rmishra-gke-cicd-demo-build.cloud.goog"
+  target: "34.111.130.207"
